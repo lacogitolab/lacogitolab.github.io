@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% include intro-header.html type='page' short=true %}
+
+<!-- Main Content: let the page content control its own grid to avoid nested columns -->
+<main class="project-page-content">
+  {{ content }}
+  
+  <style>
+    /* Subtle page-level polish and safe-guards to avoid overlaps */
+    .project-page-content { display: block; }
+    .project-page-content .container { position: relative; z-index: 1; }
+    .project-page-content .news-section, 
+    .project-page-content .projects-section { 
+      margin-top: 10px;
+    }
+    /* Ensure buttons and tags wrap nicely on small screens */
+    .project-page-content .project-links a { display: inline-block; }
+    .project-page-content .project-tags { clear: both; }
+  </style>
+</main>
+
+{% if site.page-mathjax %}
+{% include mathjax_support2.html %}
+{% endif %}

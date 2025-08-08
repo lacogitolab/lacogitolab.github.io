@@ -3,6 +3,67 @@ layout: page
 description: "「Where innovation never stops.」"
 ---
 
+<style>
+.home-news-section {
+  background: linear-gradient(180deg, #ffffff, #f7f9fc);
+  border: 1px solid #eceff3;
+  padding: 22px 22px 18px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.home-news-section h2 {
+  margin: 0 0 14px;
+  color: #222;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.home-news-section .news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.home-news-section .news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1.55;
+}
+.home-news-section .news-emoji {
+  flex: 0 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-top: 1px;
+}
+.home-news-section .news-content { color: #3a3a3a; }
+.home-news-section .news-date { font-weight: 600; color: #556; margin-right: 6px; }
+.home-news-section a { text-decoration: none; }
+.home-news-section a:hover { text-decoration: underline; }
+</style>
+
+<div class="home-news-section">
+  <h2>🗞️ Latest News</h2>
+  <ul class="news-list">
+    <li class="news-item">
+      <span class="news-emoji">🚀</span>
+      <span class="news-content"><span class="news-date">2025-02-21:</span> <a href="{{ site.baseurl }}/2025/02/21/data-ai-trends-2025-zh/">Data&AI技术趋势 2025</a> published.</span>
+    </li>
+    <li class="news-item">
+      <span class="news-emoji">🧠</span>
+      <span class="news-content"><span class="news-date">2025-01-11:</span> <a href="{{ site.baseurl }}/2025/01/11/neurosymbolic-part1/">Why self-explanation matters in AI</a> published.</span>
+    </li>
+    <li class="news-item">
+      <span class="news-emoji">🧭</span>
+      <span class="news-content"><span class="news-date">2024-04-18:</span> <a href="{{ site.baseurl }}/2024/04/18/ontology-framework/">Ontology Framework</a> published.</span>
+    </li>
+  </ul>
+</div>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
