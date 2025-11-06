@@ -3,7 +3,7 @@ layout: post
 title: "How JIT optimizes code"
 subtitle: ""
 date: 2023-03-05
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Computer Language", "Java", "Compiler"]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Ontology Framework"
 date: 2024-04-18
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Ontology", "Knowledge Representation"]
 ---

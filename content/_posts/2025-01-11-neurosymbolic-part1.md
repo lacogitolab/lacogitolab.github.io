@@ -2,7 +2,7 @@
 layout: post
 title: "Why self-explanation matters in AI"
 date: 2025-01-11
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Neuro-symbolic", "Knowledge Representation", "Artificial Intelligence"]
 ---

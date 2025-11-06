@@ -3,7 +3,7 @@ layout: post
 title: "Four Ways of Knowledge Representation"
 subtitle: ""
 date: 2023-04-09
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Cognitive Computing", "Knowledge Representation"]
 ---

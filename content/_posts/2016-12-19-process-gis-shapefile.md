@@ -3,7 +3,7 @@ layout: post
 title: "Process GIS Shapefile With Graph Tools"
 subtitle: ""
 date: 2016-12-19
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["GIS", "Graph"]
 ---

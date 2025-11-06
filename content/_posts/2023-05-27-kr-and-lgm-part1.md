@@ -3,7 +3,7 @@ layout: post
 title: "Knowledge Representation (Part I)"
 subtitle: ""
 date: 2023-05-27
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Large Graph Model", "Knowledge Representation", "Neuro-symbolic"]
 ---

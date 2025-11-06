@@ -3,7 +3,7 @@ layout: post
 title: "Project LaCogito"
 subtitle: ""
 date: 2023-03-12
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Neuro-symbolic", "Cognitive Computing", "Wolfram", "OpenCog"]
 ---

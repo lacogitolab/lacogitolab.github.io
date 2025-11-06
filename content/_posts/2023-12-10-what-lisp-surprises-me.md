@@ -2,7 +2,7 @@
 layout: post
 title: "Zen of Computer Language: Lisp"
 date: 2023-12-10
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Computer Language", "LISP"]
 ---

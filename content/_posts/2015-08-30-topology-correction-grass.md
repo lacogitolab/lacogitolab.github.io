@@ -3,7 +3,7 @@ layout: post
 title: "A Tutorial On Topology Correction Of Shapefiles"
 subtitle: ""
 date: 2015-08-30
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["GIS"]
 ---

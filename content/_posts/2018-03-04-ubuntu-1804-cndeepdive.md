@@ -3,7 +3,7 @@ layout: post
 title: "CNDeepdive上手体验"
 subtitle: ""
 date: 2018-03-04
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["OpenKG", "NLP"]
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "我站在比特之巅，凝望着知识之渊"
 subtitle: "Staring Into The Abyss of Knowledge"
 date: 2022-02-12
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: []
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Zen of Computer Language: JS"
 date: 2023-09-18
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Computer Language"]
 ---

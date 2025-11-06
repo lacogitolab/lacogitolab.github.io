@@ -3,7 +3,7 @@ layout: post
 title: "元数据的可计算化反 III"
 subtitle: "The Computability of Metadata (Part 3)"
 date: 2018-08-06
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Metadata", "Linked Data", "Graph"]
 ---

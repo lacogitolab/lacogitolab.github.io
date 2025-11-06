@@ -3,7 +3,7 @@ layout: post
 title: "14 Must-Read Books For Behavior Data Scientists"
 subtitle: ""
 date: 2015-10-15
-author: "Jamin Chen"
+author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Data Science"]
 ---
