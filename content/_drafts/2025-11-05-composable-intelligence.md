@@ -7,13 +7,18 @@ header-img: "img/post-bg-universe.jpg"
 tags: ["Composable AI, "Hierarchical Learning", "Neuro-symbolic"]
 ---
 
-In this article, I want to show you a novel perspective on understanding
-intelligence, inspired by observations of biological intelligence and the
-limitations of neural network–based AI. I call it Composable Intelligence,
-which is a new way of thinking about how intelligence might evolve or be
-constructed from a hierarchical point of view. Under this thinking, a noval
-framework of Topological Coupling Meta Representation (TCRM) is present to
-drive engineering such a practical system.
+From a physical point of view, everything in the world, from stones to brains,
+is composed of material units, such as quarks and atoms. This perspective
+inspires us to consider intelligence from a material basis as well. In this
+article, I present a novel perspective on understanding intelligence, drawn
+from observations of biological intelligence and the limitations of neural
+network–based AI. I call it **Composable Intelligence**, which is a new way of
+thinking about how intelligence might evolve or be constructed from a
+hierarchical point of view. Building on this idea, I introduce a new framework
+called **Topological Coupling Meta Representation** (TCRM), which aims to guide
+the engineering of such a practical system.
+
+![composeAI](/img/inpost/2025/composeAI.svg)
 
 ## Representative Carriers
 
