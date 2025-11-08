@@ -22,7 +22,7 @@ systems.
 ![composeAI](/img/inpost/2025/composeAI.svg)
 
 Building on this idea, a new framework, illustrated in the figure above, called
-*Topological Coupling Meta Representation* (TCRM), is proposed to guide the
+*Topological Coupling Meta Representation* (TCMR), is proposed to guide the
 engineering of such a practical system. From the bottom up, there are four
 foundational layers that together build intelligence:
 
@@ -36,7 +36,7 @@ foundational layers that together build intelligence:
   learning. New knowledge or experience emerges through the construction of new
   instances or coupling structures. Gradual forgetting occurs through the
   disappearance or decay of existing couplings. In this sense, reactive
-  coupling should be self organizing and open ended rather than closed.
+  coupling should be self-organizing and open ended rather than closed.
 
 - Compositional Meta Structures: Stable and reusable units formed from reactive
   couplings to perform higher level and more complex functions such as
@@ -67,21 +67,78 @@ stored in biochemical materials? Or do they emerge from dynamic activities such
 as resting and active potential changes? Or perhaps they lie in the
 connectivity patterns of neural networks?
 
-AI research based on computational paradigms, whether through simulation or
-imitation, provides us, at least theoretically, with a wide range of tools and
-resources to experiment with different designs of representative carriers. On
-the other hand, after decades of AI development, we have only gained practical
-experience with two main forms of representative carriers: symbols in expert AI
-systems, and embedding vectors in machine learning and modern deep neural
-networks. We have been blinded by short-term practical achievements and have
-ignored some of the core problems that truly deserve attention in the long run.
+AI research whether through simulation or imitation provides us, at least
+theoretically, with a wide range of tools and resources to experiment with
+different designs of representative carriers. On the other hand, after decades
+of AI development, we have only gained practical experience with two main forms
+of representative carriers: symbols in expert AI systems, and embedding vectors
+in machine learning and modern deep neural networks. We have been blinded by
+short-term achievements and have ignored some of the core problems that truly
+deserve attention in the long run.
 
 ## Reactive Coupling
 
-Built upon representative carries is a layer performing Reactive Coupling. This
-is a basis concept challenging current end-to-end training of ANN architectures
-such as GPT models. 
+Built upon representative carriers is a layer that performs Reactive Coupling.
+This conceptual layer is inspired by biological intelligence, where neurons can
+form new pathways or even new cells to create memories and neural activities.
+In an abstract sense, a group of representative carriers together with their
+surrounding materials constitute a coupling structure that reacts to external
+stimuli. This fundamental idea challenges the current end-to-end training
+paradigm of artificial neural network architectures, such as GPT models.
 
-## Compositional Meta Structures
+Reactive couplings are pervasive in biological systems and intelligence, yet
+they remain absent in current artificial intelligent systems. One main reason
+is that AI development in recent decades has been confined to probabilistic and
+end-to-end training paradigms. I believe that future artificial general
+intelligence (AGI) will be constructed upon a well designed, scalable system—
+much like hardware chips—that exhibits complex macro behaviors emerging from
+numerous micro structures governed by a limited set of rules. In current stage,
+these micro structures or rules may be discovered by LLM-driven technologies
+and then be distilled to form a minimum stable set.
 
-## Scaling Topology
+Another important property of reactive couplings is dynamics. They encode
+specific types of functionality while remaining adaptive to external changes.
+This forms the foundation of evolution and self-improvement, which is essential
+for achieving Gödel machines with self-reference.
+
+## Meta Structures and Topology
+
+Recently, *compositional generalization* has attracted growing attention in the
+research community as a way to address the limitations of LLMs in reasoning and
+memorization. In the TCMR framework, we propose a similar approach through
+compositional meta structures, which consist of groups of reactive couplings
+that are functionally independent.
+
+A fascinating example of meta structures can be found in the cerebral cortex.
+In human brain research, functional maps of cortical areas have been drawn
+using fMRI and cognitive experiments. These meta structures can be probed and
+measured through high level methods, and can be reused to explore a vast space
+of topological configurations.
+
+Under this design, we have gained another simension of scaling, i.e.,
+topological scaling, beyond current parameter and data scalings that enpowers LLM a lot.
+From structural view, parameter scaling of deep neural networks is simply to
+increase the number of deep layers with homoteneous structure. Thus we put this
+as linear scaling technologies. It is also like data scaling. But with
+topological scaling, we step into a new era with non-linear scaling space. The
+scaling power is enhanced by the combination of richness of reactive coupling,
+dynamics of meta-structures and unlimited scaling of topological changes.
+
+Under this design, we gain an additional dimension of scaling, i.e.,
+topological scaling, beyond the parameter and data scaling that currently
+empower LLMs. From a structural perspective, parameter scaling in deep neural
+networks simply increases the number of layers with homogeneous architectures,
+which can be considered a form of *linear* scaling. Data scaling follows a
+similar principle. In contrast, topological scaling opens a new era of
+*nonlinear* scaling, where the system’s capacity grows through the richness of
+reactive couplings, the dynamics of meta structures, and the boundless
+possibilities of topological transformation.
+
+In future articles, I will show how to design such a TCMR-like system using
+neurosymbolic technology.
+
+---
+
+NOTE: This artical is fully written by Dr Xiaming Chen and grammarly validated
+and polished by ChatGPT.
+
