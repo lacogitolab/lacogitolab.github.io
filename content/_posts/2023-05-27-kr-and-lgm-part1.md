@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Knowledge Representation (Part I)"
+title: "Knowledge Representation - Part I"
 subtitle: ""
 date: 2023-05-27
 author: "Xiaming Chen"
