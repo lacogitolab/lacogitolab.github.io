@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why self-reference matters in AI"
+title: "Neurosymbolic AI II: Why self-reference matters in AI"
 date: 2025-02-08
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
