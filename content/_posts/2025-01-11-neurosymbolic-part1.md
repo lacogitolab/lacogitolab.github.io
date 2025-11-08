@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Neurosymbolic AI I: Why self-explanation matters in AI"
+title: "Neurosymbolic AI - Part I"
+subtitle: "Why self-explanation matters in AI"
 date: 2025-01-11
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
