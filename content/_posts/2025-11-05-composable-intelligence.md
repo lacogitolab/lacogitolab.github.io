@@ -80,11 +80,12 @@ deserve attention in the long run.
 
 Built upon representative carriers is a layer that performs Reactive Coupling.
 This conceptual layer is inspired by biological intelligence, where neurons can
-form new pathways or even new cells to create memories and neural activities.
-In an abstract sense, a group of representative carriers together with their
-surrounding materials constitute a coupling structure that reacts to external
-stimuli. This fundamental idea challenges the current end-to-end training
-paradigm of artificial neural network architectures, such as GPT models.
+form new pathways or even new cells (a.k.a. neuroplasticity) to create memories
+and neural activities. In an abstract sense, a group of representative carriers
+together with their surrounding materials constitute a coupling structure that
+reacts to external stimuli. This fundamental idea challenges the current
+end-to-end training paradigm of artificial neural network architectures, such
+as GPT models.
 
 Reactive couplings are pervasive in biological systems and intelligence, yet
 they remain absent in current artificial intelligent systems. One main reason
