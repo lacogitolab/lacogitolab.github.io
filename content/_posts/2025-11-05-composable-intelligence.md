@@ -4,7 +4,7 @@ title: "Composable Intelligence"
 date: 2025-11-05
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
-tags: ["Composable AI", "Hierarchical Learning", "Neuro-symbolic"]
+tags: ["Composable Learning", "Hierarchical Learning", "Neuro-symbolic"]
 ---
 
 From a physical point of view, everything in the world, from stones to brains,
