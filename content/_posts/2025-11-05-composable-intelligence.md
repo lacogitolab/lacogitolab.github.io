@@ -22,7 +22,7 @@ systems.
 ![composeAI](/img/inpost/2025/composeAI.svg)
 
 Building on this idea, a new framework, illustrated in the figure above, called
-*Topological Coupling Meta Representation* (TCMR), is proposed to guide the
+*Topological Coupling Meta Learning* (TCML), is proposed to guide the
 engineering of such a practical system. From the bottom up, there are four
 foundational layers that together build intelligence:
 
@@ -106,7 +106,7 @@ for achieving Gödel machines with self-reference.
 
 Recently, *compositional generalization* has attracted growing attention in the
 research community as a way to address the limitations of LLMs in reasoning and
-memorization. In the TCMR framework, we propose a similar approach through
+memorization. In the TCML framework, we propose a similar approach through
 compositional meta structures, which consist of groups of reactive couplings
 that are functionally independent.
 
@@ -135,7 +135,7 @@ similar principle. In contrast, topological scaling opens a new era of
 reactive couplings, the dynamics of meta structures, and the boundless
 possibilities of topological transformation.
 
-In future articles, I will show how to design such a TCMR-like system using
+In future articles, I will show how to design such a TCML-like system using
 neurosymbolic technology.
 
 ---
