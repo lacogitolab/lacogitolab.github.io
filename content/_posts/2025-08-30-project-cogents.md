@@ -16,12 +16,7 @@ seamlessly. It combines theoretical foundations with practical implementations.
 COGENTS is supported and implemented by multiple interconnected subprojects,
 each addressing a specific aspect of cognitive agent development.
 
-## 📦 Subprojects
-
-### 1. [cogents-core](https://github.com/caesar0301/cogents-core/) 🧠 **(BASE)**
-
-[![PyPI version](https://img.shields.io/pypi/v/cogents-core.svg)](https://pypi.org/project/cogents-core/)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/caesar0301/cogents-core)
+### 1. [cogents-core](https://github.com/caesar0301/cogents-core/)
 
 **The foundational layer providing core abstractions and essential modules for all COGENTS projects.**
 
@@ -45,10 +40,7 @@ pip install -U cogents-core
 
 **Use Cases**: Building custom agents, goal-oriented planning, tool integration, LLM management
 
-### 2. [cogents-smith](https://github.com/caesar0301/cogents-smith/) 🔨
-
-[![PyPI version](https://img.shields.io/pypi/v/cogents-smith.svg)](https://pypi.org/project/cogents-smith/)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/caesar0301/cogents-smith)
+### 2. [cogents-smith](https://github.com/caesar0301/cogents-smith/)
 
 **Complete web intelligence and automation framework: extensive toolkit ecosystem, production-ready agents, multi-engine search, browser automation, and structured data extraction.**
 
@@ -84,9 +76,7 @@ pip install -U cogents-smith
 
 **Use Cases**: Rapid agent development, conversational data collection, deep research, market intelligence, web data extraction, multi-modal processing
 
-### 3. [cogents-browser-use](https://github.com/caesar0301/cogents-browser-use/) 🌐
-
-[![PyPI version](https://img.shields.io/pypi/v/cogents-browser-use.svg)](https://pypi.org/project/cogents-browser-use/)
+### 3. [cogents-browser-use](https://github.com/caesar0301/cogents-browser-use/)
 
 **AI-powered browser automation adapted from browser-use on the COGENTS stack.**
 
@@ -103,9 +93,7 @@ pip install -U cogents-browser-use
 
 **Use Cases**: Web scraping, automated testing, data extraction, web interaction automation
 
-### 4. [wizsearch](https://github.com/caesar0301/wizsearch/) 🔍
-
-[![PyPI version](https://img.shields.io/pypi/v/wizsearch.svg)](https://pypi.org/project/wizsearch/)
+### 4. [wizsearch](https://github.com/caesar0301/wizsearch/)
 
 **Unified Python library for searching across multiple search engines with a consistent interface.**
 
