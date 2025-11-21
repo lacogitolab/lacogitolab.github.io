@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Towards cognitive agentic system"
-date: 2025-11-21
+date: 2025-08-30
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["AI Agent", "Cognitive Computing"]
