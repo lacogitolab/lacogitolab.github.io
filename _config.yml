@@ -1,5 +1,5 @@
 title: λCogLab
-SEOTitle: lambdacogito
+SEOTitle: λCogLab
 header-img: "img/about-bg-walle.jpg"
 email: chenxm35@gmail.com
 url: "https://lambdacogito.github.io"
@@ -17,13 +17,13 @@ future: true
 RSS: true
 github_username:    caesar0301
 facebook_username:  caesar0301
-twitter_username:   drjaminchen
+twitter_username:   drxiamingc
 linkedin_username:  xiamingc
 
 # Build settings
 highlighter: rouge
 permalink: pretty
-paginate: 8
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: false
 timezone: CN

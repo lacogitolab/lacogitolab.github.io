@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zen of Computer Language: JS"
+title: "Zen of Javascript Language"
 date: 2023-09-18
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"

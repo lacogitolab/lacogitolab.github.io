@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data&AI技术趋势 2025"
+title: "Data & AI 技术趋势 2025"
 date: 2025-02-21
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
