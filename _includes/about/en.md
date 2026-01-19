@@ -6,15 +6,11 @@
 - 📍 Shanghai, China  
 - 🌐 Blog: https://www.xiaming.site  
 - 💻 GitHub: https://github.com/caesar0301  
-- 📚 Google Scholar: https://scholar.google.com/citations?user=9GzdwPEAAAAJ&hl=en  
-
----
 
 I am a systems-oriented engineer and researcher driven by long-term thinking about how humans and machines compute, reason, and collaborate. With a dual background in **optical physics** and **computer science**, and nearly a decade of industry experience in **cloud-native data and AI platforms** since 2016, I focus on building infrastructures that bridge incremental engineering progress with more fundamental shifts in computational paradigms.
 
 Inspired by large-scale systems such as data lakehouses and by multi-paradigm representations exemplified by projects like *Wolfram Alpha*, my work centers on unifying **data analytics**, **AI workloads**, and **resource-aware execution** into coherent, scalable systems. I combine academic rigor with production-grade engineering, aiming to push systems beyond short-term optimization toward enduring architectural clarity.
 
----
 
 ## Professional Experience
 
@@ -26,7 +22,7 @@ Inspired by large-scale systems such as data lakehouses and by multi-paradigm re
 - Core contributor to **MaxCompute**, Alibaba Cloud’s large-scale data warehouse and analytics platform.
 - Design and evolve **cloud-native resource scheduling** mechanisms to improve elasticity, fairness, and cluster utilization at scale.
 - Co-design **MaxFrame**, a unified Data-AI service that bridges large-scale data analytics and AI workloads.
-- Lead **software–hardware co-optimization** efforts across CPU and GPU execution paths, improving performance, stability, and cost efficiency for production systems.
+- Lead **software–hardware co-optimization** efforts across x86 and ARM, CPU and GPU execution paths, improving performance, stability, and cost efficiency for production systems.
 
 ### Transwarp Inc.
 
@@ -37,7 +33,6 @@ Inspired by large-scale systems such as data lakehouses and by multi-paradigm re
 - Contributed to distributed computation frameworks, scheduling subsystems, and cloud-native infrastructure integration.
 - Developed strong hands-on expertise in large-scale system deployment, performance tuning, and data-intensive engineering in production environments.
 
----
 
 ## Academic Background
 
@@ -59,7 +54,6 @@ Inspired by large-scale systems such as data lakehouses and by multi-paradigm re
 
 - Solid foundation in optical physics, signal processing, and information systems.
 
----
 
 ## Research & Publications
 
@@ -71,7 +65,6 @@ My academic work has been published in peer-reviewed international conferences a
 
 📚 **Full publication list & citations**: [Google Scholar Profile](https://scholar.google.com/citations?user=9GzdwPEAAAAJ&hl=en)
 
----
 
 ## Open-Source & Community
 
@@ -93,7 +86,6 @@ I actively engage in open-source and community initiatives that explore the foun
 
 These efforts reflect my belief that meaningful system innovation emerges from open exploration beyond immediate production constraints.
 
----
 
 ## Technical Skills & Interests
 
@@ -103,7 +95,6 @@ These efforts reflect my belief that meaningful system innovation emerges from o
 - **Programming:** Python, C/C++, Go and more
 - **Research Interests:** Computational intelligence, mathematical logic, cognitive systems, and AGI-oriented infrastructure
 
----
 
 ## Personal Philosophy & Interests
 
