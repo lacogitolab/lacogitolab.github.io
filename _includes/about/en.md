@@ -64,7 +64,7 @@ I actively engage in open-source and community initiatives that explore the foun
 
 - [**awesome-public-data**](https://github.com/awesomedata/awesome-public-datasets) — Founder  
   A long-running community curating high-quality public datasets for research and education.  
-- [**LambdaCogito**](https://github.com/lacogitolab) — Founder  
+- [**λCogito**](https://github.com/lacogitolab) — Founder  
   An experimental community exploring computational logic, language theory, and next-generation data architectures.  
 - [**cogents**](https://www.xiaming.site/2025/08/30/project-cogents/) — Research prototypes on cognitive and agent-oriented systems  
 - [**graphsim**](https://github.com/caesar0301/graphsim) — Graph similarity and structural analysis algorithms  
