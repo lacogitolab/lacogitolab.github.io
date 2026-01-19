@@ -1,23 +1,112 @@
-I am a natural optimist and a dreamer with aspirations for something big. What’s considered "big" is relative—it evolves in response to the world around me and sometimes to the shifts within my own spiritual landscape. I’m also an avid enthusiast of human technologies, and the combination of these two passions gives me a strong vision and high expectations for future innovations. However, when I observe human technological progress, it often feels like advancement is slow and incremental, especially in theoretical and industrial fields over the past few decades. This sense of stagnation leads me to seek inspiration from sci-fi movies and literature. That’s why [StarTrek](https://simple.wikipedia.org/wiki/Star_Trek) has become one of my all-time favorite series and films—it represents the future I envision. It also fuels my drive to explore projects that might one day bring that future to life.
+# Xiaming Chen
 
-#### Academic Experience
+**Ph.D. in Information and Communication Engineering**  
+**Visionary Data & AI Engineer · Cloud-Native Systems Architect · Open-Source Builder**
 
-I have a background in both optical physics and computer science:
-* 2010-2016: Ph.D. in Information and Communication Engineering, Shanghai Jiaotong University
-* 2006-2010: Bachelor’s in Optical Information Science and Technology, Xidian University
+- 📍 Shanghai, China  
+- 🌐 Blog: https://www.xiaming.site  
+- 💻 GitHub: https://github.com/caesar0301  
+- 📚 Google Scholar: https://scholar.google.com/citations?user=9GzdwPEAAAAJ&hl=en  
 
-My Ph.D. research focused on the renewal of models and the characteristics of human mobility, using advanced statistical techniques to analyze large-scale network traffic. There is a significant gap between observable behavioral patterns and the raw digital data collected from sources like mobile geo-located application traffic. Advanced analysis and modeling methods to bridge this gap are still lacking, which initially inspired my work. My thesis was supervised by Prof. [Yaohui Jin](http://front.sjtu.edu.cn/~jinyh/) at Shanghai Jiao Tong University, and it is now publicly available [here](https://github.com/caesar0301/phd-dissertation) (in Chinese).
+---
 
-A by-product of this research was the creation of the [awesome-public-data](https://github.com/awesomedata) community. In the early years of Big Data (around 2009-2010), there was a significant struggle to find high-quality research data, which led me to start this community to host a curated collection of research-quality datasets. The community remains active to this day. You can join the latest discussions on data joy in our [Slack](https://awesomedataworld.slack.com/) channel.
+I am a systems-oriented engineer and researcher driven by long-term thinking about how humans and machines compute, reason, and collaborate. With a dual background in **optical physics** and **computer science**, and nearly a decade of industry experience in **cloud-native data and AI platforms** since 2016, I focus on building infrastructures that bridge incremental engineering progress with more fundamental shifts in computational paradigms.
 
-#### Industrial Experience
+Inspired by large-scale systems such as data lakehouses and by multi-paradigm representations exemplified by projects like *Wolfram Alpha*, my work centers on unifying **data analytics**, **AI workloads**, and **resource-aware execution** into coherent, scalable systems. I combine academic rigor with production-grade engineering, aiming to push systems beyond short-term optimization toward enduring architectural clarity.
 
-At the outset of my Ph.D. journey, the Big Data trend was emerging, and the technology was rising through the Gartner Hype Cycle, still in the Innovation Trigger phase. Big Data, along with data science and preprocessing, became central to my daily research on human behavior pattern mining. After graduation, I joined Transwarp Inc., a domestic Big Data startup named after the sci-fi novel *The Three-Body Problem*, in Shanghai. There, I spent over three years exploring the integration of Big Data stacks with the dynamic cloud-native Kubernetes ecosystem.
+---
 
-In 2020, I transitioned to a leading Cloud-native service provider, diving deep into cloud-native services for big data warehouses and data lakes. It was during this time that I started to seriously consider the technologies behind Wolfram Alpha, captivated by its efficiency and the unification of multi-paradigm data representations. These features lie at the heart of a successful data-lake warehouse. However, when I realized that fulfilling my experimental ideas within a commercial product burdened by tech debt was a challenge, I founded the [LambdaCogito](https://github.com/lambdacogito) community to explore these proof-of-concept ideas.
+## Professional Experience
 
-With nearly seven years of industrial experience, I’ve acquired a wide range of skills necessary for these PoCs, from programming languages to architectural design. However, I know there is still much to learn to complete my toolkit before I can lead my own team. This includes areas like computer language theory, mathematical logic, computational logic, artificial general intelligence, and cognitive science, among others. This continuous learning process also offers me valuable insights into the rapid evolution of data technologies.
+### Alibaba Cloud (Aliyun)
 
-#### Hobbies
+**Senior Data & AI Engineer — MaxCompute / MaxFrame**  
+*2020 – Present*
 
-Family is the treasure at the core of my heart. Without them, all the stories we create for ourselves would be swept away by the winds of time. The essence of who I am, along with my ambitious goals, is rooted in finding meaning amidst the aimlessness of life. This perspective isn't one of pessimism; rather, it is true optimism. I have a passion for Chinese calligraphy, maintaining an aquarium, traveling, reading, and reflecting. However, everything is better when shared with family.
+- Core contributor to **MaxCompute**, Alibaba Cloud’s large-scale data warehouse and analytics platform.
+- Design and evolve **cloud-native resource scheduling** mechanisms to improve elasticity, fairness, and cluster utilization at scale.
+- Co-design **MaxFrame**, a unified Data-AI service that bridges large-scale data analytics and AI workloads.
+- Lead **software–hardware co-optimization** efforts across CPU and GPU execution paths, improving performance, stability, and cost efficiency for production systems.
+
+### Transwarp Inc.
+
+**Big Data Engineer**  
+*2016 – 2020*
+
+- Joined the company during its rapid growth phase and worked on the core **Transwarp Data Cloud** platform.
+- Contributed to distributed computation frameworks, scheduling subsystems, and cloud-native infrastructure integration.
+- Developed strong hands-on expertise in large-scale system deployment, performance tuning, and data-intensive engineering in production environments.
+
+---
+
+## Academic Background
+
+### Shanghai Jiao Tong University
+
+**Ph.D. in Information and Communication Engineering**  
+*2010 – 2016*
+
+- Research focus: statistical modeling and large-scale data analysis for understanding complex systems.
+- Dissertation: modeling and characterization of **human mobility patterns** from large-scale network traffic data.
+- Supervised by Prof. [Yaohui Jin](http://front.sjtu.edu.cn/~jinyh/).
+
+📘 **Dissertation (Chinese)**: https://github.com/caesar0301/phd-dissertation
+
+### Xidian University
+
+**B.S. in Optical Information Science and Technology**  
+*2006 – 2010*
+
+- Solid foundation in optical physics, signal processing, and information systems.
+
+---
+
+## Research & Publications
+
+My academic work has been published in peer-reviewed international conferences and journals, including *ICC, PAM, UIC,* and *ICTC*. Representative research themes include:
+
+- Spatio-temporal data analysis and human mobility modeling
+- Data-driven pattern discovery and anomaly detection
+- Scalable computational methods for complex systems
+
+📚 **Full publication list & citations**: [Google Scholar Profile](https://scholar.google.com/citations?user=9GzdwPEAAAAJ&hl=en)
+
+---
+
+## Open-Source & Community
+
+I actively engage in open-source and community initiatives that explore the foundations and future directions of data and AI systems:
+
+- **awesome-public-data** — Founder  
+  A long-running community curating high-quality public datasets for research and education.  
+  https://github.com/awesomedata/awesome-public-datasets
+
+- **LambdaCogito** — Founder  
+  An experimental community exploring computational logic, language theory, and next-generation data architectures.  
+  https://github.com/lacogitolab
+
+- **cogents** — Research prototypes on cognitive and agent-oriented systems  
+  https://www.xiaming.site/2025/08/30/project-cogents/
+
+- **graphsim** — Graph similarity and structural analysis algorithms  
+  https://github.com/caesar0301/graphsim
+
+These efforts reflect my belief that meaningful system innovation emerges from open exploration beyond immediate production constraints.
+
+---
+
+## Technical Skills & Interests
+
+- **Architecture:** Cloud-native systems (Kubernetes), large-scale scheduling, data lakehouse design
+- **Data & AI Platforms:** Data warehouses, Data-AI integration, heterogeneous workload execution
+- **Performance Engineering:** CPU/GPU co-optimization, resource-aware execution
+- **Programming:** Python, C/C++, Go and more
+- **Research Interests:** Computational intelligence, mathematical logic, cognitive systems, and AGI-oriented infrastructure
+
+---
+
+## Personal Philosophy & Interests
+
+I believe that genuine optimism lies in discovering meaning within the apparent aimlessness of life. My family is the anchor of my world and the quiet force behind my professional persistence and long-term vision.
+
+Outside of work, I enjoy Chinese calligraphy, maintaining an aquarium, traveling, reading, and reflective thinking. I am deeply inspired by science fiction, especially *Star Trek*, theoretical physics, and the evolving narrative of human knowledge.
