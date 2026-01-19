@@ -38,9 +38,7 @@ Inspired by large-scale systems such as data lakehouses and by multi-paradigm re
 *2010 – 2016*
 - Research focus: statistical modeling and large-scale data analysis for understanding complex systems.
 - Dissertation: modeling and characterization of **human mobility patterns** from large-scale network traffic data.
-- Supervised by Prof. [Yaohui Jin](http://front.sjtu.edu.cn/~jinyh/).
-
-📘 **Dissertation (Chinese)**: https://github.com/caesar0301/phd-dissertation
+- Supervised by Prof. [Yaohui Jin](http://front.sjtu.edu.cn/~jinyh/), 📘 [Ph.D Dissertation](https://github.com/caesar0301/phd-dissertation) (Chinese)
 
 ### Xidian University
 
@@ -50,13 +48,11 @@ Inspired by large-scale systems such as data lakehouses and by multi-paradigm re
 
 ## Research & Publications
 
-My academic work has been published in peer-reviewed international conferences and journals, including *ICC, PAM, UIC,* and *ICTC*. Representative research themes include:
+My academic work has been published in peer-reviewed international conferences and journals, including *ICC, PAM, UIC,* and *ICTC* ([Google Scholar Profile](https://scholar.google.com/citations?user=9GzdwPEAAAAJ&hl=en)). Representative research themes include:
 
 - Spatio-temporal data analysis and human mobility modeling
 - Data-driven pattern discovery and anomaly detection
 - Scalable computational methods for complex systems
-
-📚 **Full publication list & citations**: [Google Scholar Profile](https://scholar.google.com/citations?user=9GzdwPEAAAAJ&hl=en)
 
 ## Open-Source & Community
 
