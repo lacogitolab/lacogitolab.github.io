@@ -6,6 +6,8 @@ date: 2023-03-12
 author: "Xiaming Chen"
 header-img: "img/post-bg-universe.jpg"
 tags: ["Neuro-symbolic", "Cognitive Computing", "Wolfram", "OpenCog"]
+redirect_from:
+  - "/2023/03/12/project-sapientia/"
 ---
 
 # Introduction

@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
+ruby '3.4.7'
+
+gem 'jekyll', '~> 4.4'
 gem 'jekyll-paginate'
-gem "jekyll", "~> 4.0"
-gem "rake"
-gem "rexml", ">= 3.3.9"
-gem "webrick", ">= 1.8.2"
-gem "logger"
-gem "csv"
-gem "base64"
-gem "bigdecimal"
+gem 'jekyll-redirect-from'
+gem 'rake'
+gem 'webrick', '~> 1.9'

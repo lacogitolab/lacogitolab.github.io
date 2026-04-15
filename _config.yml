@@ -31,7 +31,7 @@ timezone: CN
 # Gems
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-redirect-from]
 
 # Markdown settings
 # replace redcarpet to kramdown,

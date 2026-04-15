@@ -177,7 +177,7 @@ with KRI in next part.
 
 ## Summary
 
-This article shows a blueprint of my [project LaCogito](http://xiaming.site/2023/03/12/project-sapientia/)
+This article shows a blueprint of my [project LaCogito](/2023/03/12/project-lambda-cogito/)
 towards general cognitive/knowledge computing infrastructure. It summarized my recent thinking
 about KR and expected related principles to develop a knowledge-intensive
 system. After a technical deduction, KIR seems to pave a new way to integrate

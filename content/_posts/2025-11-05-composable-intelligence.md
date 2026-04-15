@@ -19,7 +19,7 @@ systems.
 
 ## The Framework
 
-![composable-intelligence](/img/inpost/composable-intelligence/composable-intelligence.svg)
+![composable-intelligence](/img/inpost/composable-intelligence/composable-intelligence.png)
 
 Building on this idea, a new framework, illustrated in the figure above, called
 *Topological Coupling Meta Learning* (TCML), is proposed to guide the
