@@ -7,6 +7,8 @@ header-img: "img/post-bg-universe.jpg"
 tags: ["Composable Learning", "Hierarchical Learning", "Neuro-symbolic"]
 ---
 
+![composable-intelligence](/img/inpost/composable-intelligence/composable-intelligence.png)
+
 From a physical point of view, everything in the world, from stones to brains,
 is composed of material units such as quarks and atoms. This perspective
 inspires us to consider intelligence from a material basis as well. In this
@@ -18,8 +20,6 @@ hierarchical point of view, applicable to both biological and artificial
 systems.
 
 ## The Framework
-
-![composable-intelligence](/img/inpost/composable-intelligence/composable-intelligence.png)
 
 Building on this idea, a new framework, illustrated in the figure above, called
 *Topological Coupling Meta Learning* (TCML), is proposed to guide the

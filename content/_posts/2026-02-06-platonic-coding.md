@@ -7,6 +7,8 @@ header-img: "img/post-bg-universe.jpg"
 tags: ["Platonic Coding", "LLM", "AI Agents", "Software Engineering"]
 ---
 
+![Platonic Coding Manifesto](/img/inpost/platonic-coding/platonic-coding-manifesto.png)
+
 ## The Hallucination Problem
 
 Large Language Models have revolutionized software development, enabling developers to generate code, debug systems, and explore solutions at unprecedented speed. Yet, anyone who has worked extensively with AI coding assistants knows the persistent frustration: agents generate plausible-looking code that violates explicit requirements, introduce inconsistencies across sessions, and drift from the original intent over time. This phenomenon, often called "hallucination" in the context of LLMs, is not merely a technical glitch. It is a fundamental consequence of how meaning is negotiated in current AI-assisted workflows.
