@@ -30,6 +30,6 @@ INFO:root:Cutting lines with specific resolution = 0.01 km
 INFO:root:Graph created with 1770 nodes, 1528 edges
 ```
 
-![road graph](/img/inpost/gis-shapefile/gis_road_graph_sjtu.png)
+![road-graph-sjtu](/img/inpost/process-gis-shapefile/road-graph-sjtu.png)
 
-![zoom](/img/inpost/gis-shapefile/gis_road_graph_zoom.png)
+![road-graph-zoom](/img/inpost/process-gis-shapefile/road-graph-zoom.png)

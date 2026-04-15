@@ -73,7 +73,7 @@ LLM架构自身有几个显著缺陷：
 
 事实上，由于训练数据内部知识的不一致性，造成LLM内部的知识冲突，[Xu2024](https://aclanthology.org/2024.emnlp-main.486/)表明这种冲突是普遍存在、且内生的，需要更加底层的变革。因此，LLM是弱一致性（weak-consistency）模型。和一致性相关有个著名的[Gödel不完备定理](https://xiaming.site/2025/02/08/neurosymbolic-part2/)，其表示对于任意的formal system，完备性（completeness）和一致性（consistency）无法兼而有之。[Pérez2021](https://jmlr.org/papers/v22/20-302.html)证明Transformer一定约束下是turing-complete，而turing-complete system是formal system。由此可见，LLM在一定约束下满足Gödel不完备定理，在追求知识量（高完备性）的前提下，势必会破坏知识表示的一致性：这如同紧箍咒，定位了通用单一LLM模型的能力边界。因此笔者认为，这也预示着**MoE架构**比当下流行的通用单一模型更有前景。
 
-![neuroai-llm](/img/inpost/2025/neuroai-llm-brain.png)
+![neuroai-llm](/img/inpost/data-ai-trends-2025/neuroai-llm-brain.png)
 
 除此以外，即便LLM是个黑盒，其对自然语言模式、尤其对基于语言的逻辑推理的捕获，让人们不禁好奇：这种类人思考的机制的本质是什么？在NeuroAI领域，结合LLM和大脑fMRI数据的研究，[Mischler2024](https://www.nature.com/articles/s42256-024-00925-4)和[Kumar2024](https://www.nature.com/articles/s41467-024-49173-5)揭示了LLM工作机制和人脑皮层的神经信号处理在宏观上的相似性。虽然仍处于初期研究阶段，该领域的研究或许是下一代AGI技术的突破所在。
 
@@ -83,7 +83,7 @@ LLM架构自身有几个显著缺陷：
 
 基于当前数据规模和算力提升，我们应该重新审视AI的发展历程，汲取前人思想和实践经验，从宏观视角探索潜在的AGI实现路径。笔者以为，当下有两个潜在的AGI实现路径值得关注：世界模型和神经符号AI（Neuro-symbolic AI）。
 
-![world-model](/img/inpost/2025/world-model-lecun.png)
+![world-model](/img/inpost/data-ai-trends-2025/world-model-lecun.png)
 
 **世界模型**的思想与AI发展一脉相承，其核心思想从第一性原理出发，通过描述世界的状态和行为，并定义状态和行为之间的联系，来构建AI模型/系统。世界模型可以用于解决各种问题，如智能体在环境中的规划、决策、行为等。[Han2018](https://arxiv.org/abs/1803.10122)首次系统介绍了相关概念，并基于vision-memory-controller架构的二维小车游戏展示了世界模型的潜力。[LeCun2022](https://openreview.net/pdf?id=BZ5a1r-kVsf)提出了基于能量模型EBM和JEPA架构的世界模型实现思路，并在视觉表征、自动驾驶领域得到了实践。李飞飞带队创业成立[WorldLabsAI](https://www.worldlabs.ai/about)，专注于大世界模型(Large World Models，LWMs)，去年12月发布了空间智能计算的第一个成果Generating 3D worlds。Google于2025年1月宣布在DeepMind内部成立专门的WorldModeling团队，以解决世界模型问题。该领域仍处于起步和布局阶段，但其前景令人期待。
 

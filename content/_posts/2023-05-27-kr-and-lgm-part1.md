@@ -21,7 +21,7 @@ representation of knowledge (KR). The main reason comes from the token
 vectorization and high dimensional nature of neural networks with a vast amount
 (tens to hundreds of billions) of parameters and deep layers.
 
-![awesome-transformer-nlp](/img/inpost/2023/awesome-transformer-nlp.png)
+![awesome-transformer-nlp](/img/inpost/kr-and-lgm-part1/awesome-transformer-nlp.png)
 
 We can imagine LLM as a higher dimensional space that absorbs token occurrence
 patterns as vectors, and implicit complex logics encoded in their computational
@@ -118,7 +118,7 @@ progress in multimodal graph learning [5] also confirms the importance and
 powerfulness of selecting a suitable presentation paradigm in a sense of fusing
 multimodal data sources.
 
-![LLM vs KIR-LGM](/img/inpost/2023/KIR-LGM.png)
+![llm-vs-kir-lgm](/img/inpost/kr-and-lgm-part1/llm-vs-kir-lgm.png)
 
 We compare the methodology of KIR with graphical reasoning such as large graph
 model (LGM) or probabilistic graph reasoning (PGS) with current state-of-the-art
@@ -158,7 +158,7 @@ reasoning question, it is because that similar sequences describing related
 problems are present in the training set and encoded in the hyper-parameter
 space.
 
-![flock-tiny-birds-flying-by-forest](/img/inpost/2023/flock-tiny-birds-flying-by-forest.png)
+![flock-tiny-birds-by-forest](/img/inpost/kr-and-lgm-part1/flock-tiny-birds-by-forest.png)
 
 To conquer this limitation, we propose graph-modeled equivalent (e.g.
 hypergraph) of KIR before performing reasoning. Also in the birds-hovering
