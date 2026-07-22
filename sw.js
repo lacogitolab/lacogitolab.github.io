@@ -9,7 +9,7 @@
 // CACHE_NAMESPACE
 // CacheStorage is shared between all sites under same domain.
 // A namespace can prevent potential name conflicts and mis-deletion.
-const CACHE_NAMESPACE = 'main-'
+const CACHE_NAMESPACE = 'main-v2-'
 
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
@@ -35,7 +35,7 @@ const HOSTNAME_WHITELIST = [
   "yanshuo.io",
   "cdnjs.cloudflare.com"
 ]
-const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
+const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime', 'main-precache-then-runtime']
 
 
 // The Util Function to hack URLs of intercepted requests
@@ -182,18 +182,28 @@ self.addEventListener('fetch', event => {
       return;
     }
 
-    // Stale-while-revalidate for possiblily dynamic content
-    // similar to HTTP's stale-while-revalidate: https://www.mnot.net/blog/2007/12/12/stale
-    // Upgrade from Jake's to Surma's: https://gist.github.com/surma/eb441223daaedf880801ad80006389f1
+    // Network-first for HTML navigation requests
+    // Always fetch fresh content from network, fall back to cache only when offline.
+    // This prevents serving stale content (e.g. updated blog posts) from the service worker cache.
+    if (isNavigationReq(event.request)) {
+      const cached = caches.match(event.request);
+      event.respondWith(
+        fetch(getCacheBustingUrl(event.request), { cache: "no-store" })
+          .then(resp => {
+            const respClone = resp.clone();
+            caches.open(CACHE).then(cache => cache.put(event.request, respClone));
+            return resp;
+          })
+          .catch(() => cached || caches.match('offline.html'))
+      );
+      return;
+    }
+
+    // Stale-while-revalidate for static assets (JS/CSS/images)
     const cached = caches.match(event.request);
     const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
     const fetchedCopy = fetched.then(resp => resp.clone());
 
-    // Call respondWith() with whatever we get first.
-    // Promise.race() resolves with first one settled (even rejected)
-    // If the fetch fails (e.g disconnected), wait for the cache.
-    // If there’s nothing in cache, wait for the fetch.
-    // If neither yields a response, return offline pages.
     event.respondWith(
       Promise.race([fetched.catch(_ => cached), cached])
         .then(resp => resp || fetched)
@@ -206,63 +216,5 @@ self.addEventListener('fetch', event => {
         .then(([response, cache]) => response.ok && cache.put(event.request, response))
         .catch(_ => {/* eat any errors */ })
     );
-
-    // If one request is a HTML naviagtion, checking update!
-    if (isNavigationReq(event.request)) {
-      // you need "preserve logs" to see this log
-      // cuz it happened before navigating
-      console.log(`fetch ${event.request.url}`)
-      event.waitUntil(revalidateContent(cached, fetchedCopy))
-    }
   }
 });
-
-
-/**
- * Broadcasting all clients with MessageChannel API
- */
-function sendMessageToAllClients(msg) {
-  self.clients.matchAll().then(clients => {
-    clients.forEach(client => {
-      console.log(client);
-      client.postMessage(msg)
-    })
-  })
-}
-
-/**
- * Broadcasting all clients async
- */
-function sendMessageToClientsAsync(msg) {
-  // waiting for new client alive with "async" setTimeout hacking
-  // https://twitter.com/Huxpro/status/799265578443751424
-  // https://jakearchibald.com/2016/service-worker-meeting-notes/#fetch-event-clients
-  setTimeout(() => {
-    sendMessageToAllClients(msg)
-  }, 1000)
-}
-
-/**
- * if content modified, we can notify clients to refresh
- * TODO: Gh-pages rebuild everything in each release. should find a workaround (e.g. ETag with cloudflare)
- *
- * @param  {Promise<response>} cachedResp  [description]
- * @param  {Promise<response>} fetchedResp [description]
- * @return {Promise}
- */
-function revalidateContent(cachedResp, fetchedResp) {
-  // revalidate when both promise resolved
-  return Promise.all([cachedResp, fetchedResp])
-    .then(([cached, fetched]) => {
-      const cachedVer = cached.headers.get('last-modified')
-      const fetchedVer = fetched.headers.get('last-modified')
-      console.log(`"${cachedVer}" vs. "${fetchedVer}"`);
-      if (cachedVer !== fetchedVer) {
-        sendMessageToClientsAsync({
-          'command': 'UPDATE_FOUND',
-          'url': fetched.url
-        })
-      }
-    })
-    .catch(err => console.log(err))
-}
