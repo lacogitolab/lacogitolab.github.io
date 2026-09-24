@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidance for AI agents (and human collaborators) working on the **Lambda Cognition** personal site — a Jekyll blog forked from Huxpro's theme, hosted via GitHub Pages.
+Guidance for AI agents (and human collaborators) working on the **LaCogito** personal site — a Jekyll blog forked from Huxpro's theme, hosted via GitHub Pages.
 
 Read this before editing posts, pages, layouts, or theme assets.
 
@@ -241,7 +241,7 @@ Ruby version: `3.4.8` (pinned in `Gemfile`). Use rbenv (see `README.md`) if your
 
 | Key | Value | Notes |
 |---|---|---|
-| `title` | Lambda Cognition | Site title / navbar brand |
+| `title` | LaCogito | Site title / navbar brand |
 | `url` | `https://lambdacogito.github.io` | Canonical URL |
 | `collections_dir` | `content` | All collections under `content/` |
 | `future` | `true` | Future-dated posts publish |
