@@ -24,7 +24,7 @@ linkedin_username:  xiamingc
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md","AGENTS.md"]
 anchorjs: false
 timezone: CN
 
