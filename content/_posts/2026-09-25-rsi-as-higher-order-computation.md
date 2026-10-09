@@ -17,10 +17,7 @@ from the side of the substrate. This note is the cleanest version I can write
 down so far. I want to state it plainly, without the scaffolding of a project
 announcement or a framework pitch.
 
-The claim fits in one line:
-
-> Recursive Self-Improvement (RSI) is computation over the process of
-> computation itself.
+The claim fits in one line: **Recursive Self-Improvement (RSI) is computation over the process of computation itself.**
 
 The rest is just unpacking that sentence. I am writing it down mostly to get it
 out of my head (不求看官解，自娱耳). If you have been thinking along similar
@@ -52,9 +49,7 @@ The system therefore operates on two levels. At the first level it solves the
 target problem. At the second level it observes how the problem is being solved
 and modifies the strategy used to solve it.
 
-This leads to a useful interpretation:
-
-> RSI is computation over the process of computation itself.
+This leads to a useful interpretation: **RSI is computation over the process of computation itself.**
 
 The system is not only searching for better answers. It is searching for better
 ways of searching.
@@ -76,10 +71,7 @@ This is fundamentally different from a static task scheduler. A traditional
 scheduler decides where and when computation runs. An RSI policy decides *what
 computation should exist in the first place*.
 
-The distinction:
-
-> Distributed computing optimizes the execution of computation.
-> RSI optimizes the generation and organization of computation.
+The distinction: **distributed computing optimizes the execution of computation, while RSI optimizes the generation and organization of computation.**
 
 This is why RSI can be considered a higher-order extension of distributed
 computation.
@@ -122,15 +114,7 @@ investigate whether this relationship reflects:
 - interaction;
 - or a deeper causal relationship.
 
-This provides a more meaningful basis for policy improvement. Instead of simply
-learning:
-
-> "When A happens, B often happens."
-
-the system attempts to learn:
-
-> "Changing A under these conditions causes B, therefore future exploration
-> should allocate computation differently."
+This provides a more meaningful basis for policy improvement. Instead of simply learning **"When A happens, B often happens."**, the system attempts to learn **"Changing A under these conditions causes B, therefore future exploration should allocate computation differently."**
 
 Causal inspection thus becomes a bridge between observations and policy
 modification. It allows the system to transform accumulated execution data into
@@ -189,21 +173,10 @@ intelligence.
 
 ## The Deeper Principle
 
-The deepest idea behind RSI is therefore not simply:
-
-> Make the model smarter.
-
-It is:
-
-> Make the system better at discovering how to become smarter.
+The deepest idea behind RSI is therefore not simply **make the model smarter**. It is **make the system better at discovering how to become smarter**.
 
 The object being optimized moves from the solution to the search process, and
-eventually to the policy that controls the search process. This creates a
-recursive loop:
-
-> Solutions improve through better policies,
-> policies improve through better understanding of computation,
-> and understanding improves through further computation.
+eventually to the policy that controls the search process. This creates a recursive loop: **solutions improve through better policies, policies improve through better understanding of computation, and understanding improves through further computation.**
 
 In this sense, RSI represents a transition from automated computation to
 self-improving computation.
@@ -218,15 +191,7 @@ structural and causal relationships between parameters, actions, predictors, and
 outcomes. AI provides the mechanism for automating this inspection and turning
 observations into new policies.
 
-The fundamental transition is:
-
-> From computing solutions
-> to computing better ways of finding solutions.
-
-And ultimately:
-
-> RSI is a computational system that recursively discovers and improves the
-> policies governing its own computation.
+The fundamental transition is **from computing solutions to computing better ways of finding solutions.** And ultimately: **RSI is a computational system that recursively discovers and improves the policies governing its own computation.**
 
 That is the whole claim. I do not think it requires any new physics or
 hand-waving about emergence. It requires taking the idea of higher-order
