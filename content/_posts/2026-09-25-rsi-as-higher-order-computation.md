@@ -47,10 +47,8 @@ Problem → Computation Policy → Computation → Observation → Policy Improv
 
 The system therefore operates on two levels. At the first level it solves the
 target problem. At the second level it observes how the problem is being solved
-and modifies the strategy used to solve it.
-
-This leads to a useful interpretation: **RSI is computation over the process of computation itself.**
-
+and modifies the strategy used to solve it. This leads to a useful
+interpretation: **RSI is computation over the process of computation itself.**
 The system is not only searching for better answers. It is searching for better
 ways of searching.
 
@@ -71,10 +69,9 @@ This is fundamentally different from a static task scheduler. A traditional
 scheduler decides where and when computation runs. An RSI policy decides *what
 computation should exist in the first place*.
 
-The distinction: **distributed computing optimizes the execution of computation, while RSI optimizes the generation and organization of computation.**
-
-This is why RSI can be considered a higher-order extension of distributed
-computation.
+The distinction: **distributed computing optimizes the execution of computation,
+while RSI optimizes the generation and organization of computation.** This is
+why RSI can be considered a higher-order extension of distributed computation.
 
 ## From Execution History to Policy
 
